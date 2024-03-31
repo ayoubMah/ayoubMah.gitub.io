@@ -1,0 +1,169 @@
+*{
+    list-style-type: none;
+}
+body{
+    font-family: "Edu NSW ACT Foundation", cursive;
+
+
+}
+
+
+.ul {
+    background-color: #333;
+    color: #ffff;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+.li{
+    float: left;
+}
+.paragraph{
+    font-size: 40px;
+    display: inline;
+}
+.a-class{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+}
+.li a:hover{
+    background-color: black;
+}
+.div1{
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.sm{
+    width: 30px;
+    padding: 5px;
+}
+.skill{
+    width: 20px;
+    float: left;
+
+}
+.level{
+    width: 500px;
+    float: right;
+
+}
+.row{
+    padding: 8px;
+}
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main{
+    background-color: gray;
+    display: block;
+    height: 25px;
+}
+.main span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+.js{
+    width: 50%;
+    animation: js 2s;
+}
+.sql{
+    width: 70%;
+    animation: sql 2s;
+}
+.linux{
+    width: 60%;
+    animation: linux 2s;
+}
+.java{
+    width: 75%;
+    animation: java 2s;
+}
+.htmlCss{
+    width: 90%;
+    animation: hc 2s;
+}
+.python{
+    width: 65%;
+    animation: python 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes linux {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes hc {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.foter{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .div1{
+        width: 100%;
+    }
+}
+
+.par {
+    margin-right: 20px; /* Adjust as needed */
+}
